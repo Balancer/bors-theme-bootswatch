@@ -1,0 +1,18 @@
+{
+	"name": "balancer/bors-theme-bootswatch",
+	"description": "Bootswatch themes for BORS© framework",
+
+	"authors": [
+		{ "name": "Balancer", "email": "balancer@balancer.ru" }
+	],
+
+	"require": {
+		"balancer/bors-theme-bootstrap3": "*"
+	},
+
+    "autoload": {
+		"psr-4": {
+			"B2\\Theme\\Bootswatch\\": "./"
+		}
+    }
+}
